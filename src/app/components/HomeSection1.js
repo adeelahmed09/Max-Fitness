@@ -21,20 +21,20 @@ function HomeSection1() {
         gsap.from(mainHeading.current, {
             y: 45,
             opacity: 0,
-            duration: 1,
+            duration: .6,
             ease: "power2.out"
         })
         gsap.from(paragraph.current, {
             y: 45,
             opacity: 0,
-            duration: 1,
+            duration: .6,
             delay:.5,
             ease: "power2.out"
         })
         gsap.from(button.current, {
             y: 45,
             opacity: 0,
-            duration: 1,
+            duration: .6,
             delay:1,
             ease: "power2.out"
         })
@@ -48,7 +48,7 @@ function HomeSection1() {
             <p ref={paragraph} className={`${space.className}  text-center px-3 sm:px-0 sm:text-lg text-white tracking-wide`}>
                 Build the Strongest Version of Yourself
             </p>
-            <button ref={button} className={`px-3 py-2 font-extrabold sm:text-lg rounded-xl bg-[#CCEE0C] hover:bg-white border-2 border-[#CCEE0C] hover:border-black transition  ${zen_dots.className}`}>
+            <button ref={button} className={`px-3 py-2 font-extrabold sm:text-lg rounded-xl bg-[#CCEE0C] hover:bg-white border-2 border-[#CCEE0C] hover:border-black  ${zen_dots.className}`}>
                 Join Now
             </button>
         </div>
