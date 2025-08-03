@@ -1,2 +1,11 @@
 @import "tailwindcss";
 
+body{
+  background-color: #000000;
+}
+.primaryColor{
+  color:#CCEE0C;
+}
+.secondaryBackColor{
+  background-color:#CCEE0C;
+}
