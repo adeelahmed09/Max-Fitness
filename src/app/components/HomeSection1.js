@@ -16,6 +16,7 @@ function HomeSection1() {
     gsap.registerPlugin(useGSAP);
     const mainHeading = useRef(null)
     const paragraph = useRef(null)
+    const button = useRef(null)
     useEffect(() => {
         gsap.from(mainHeading.current, {
             y: 45,
@@ -28,6 +29,13 @@ function HomeSection1() {
             opacity: 0,
             duration: 1,
             delay:.5,
+            ease: "power2.out"
+        })
+        gsap.from(button.current, {
+            y: 45,
+            opacity: 0,
+            duration: 1,
+            delay:1,
             ease: "power2.out"
         })
     }, [])
