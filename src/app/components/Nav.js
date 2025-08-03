@@ -25,7 +25,7 @@ function Nav() {
         </section>
     </nav>
     <div className='absolute top-0 w-full text-center pt-4 sm:hidden'>
-        <h1 className={`${zen_dots.className} text-xl text-white`}>Max <span className='text-[#CCEE0C]'>Fitness</span> Center</h1>
+        <h1 className={`${zen_dots.className} text-2xl text-white`}>Max <span className='text-[#CCEE0C]'>Fitness</span> Center</h1>
     </div>
     <nav className='sm:hidden' id='mobileNav'>
 

@@ -10,7 +10,8 @@ const zen_dots = Zen_Dots({
 });
 const space = Space_Grotesk({
     subsets: ["latin"],
-    weight: ["400"],
+    weight: ["400","700"],
+    display: 'swap',
 });
 function HomeSection1() {
     gsap.registerPlugin(useGSAP);
@@ -42,7 +43,7 @@ function HomeSection1() {
     return (
         <div className='h-screen w-[100vw] flex justify-center flex-col items-center relative lg:gap-4 sm:gap-3 gap-2 overflow-hidden'>
             <img src="/GymMainHeroImage.webp" className="-z-20 brightness-35 w-full h-full absolute object-cover sm:object-center object-[-500px] w-full" alt="" />
-            <h1 ref={mainHeading} className={`sm:text-4xl text-3xl lg:text-6xl tracking-tighter text-center text-white uppercase ${zen_dots.className}`}>
+            <h1 ref={mainHeading} className={`sm:text-4xl text-3xl lg:text-7xl tracking-tighter text-center text-white uppercase ${zen_dots.className}`}>
                 Unlock <span className='primaryColor'>Your</span> Power
             </h1>
             <p ref={paragraph} className={`${space.className}  text-center px-3 sm:px-0 sm:text-lg text-white tracking-wide`}>
