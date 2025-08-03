@@ -21,7 +21,7 @@ function HomeSection1() {
         tl.from(mainHeading.current, {
             y: 45,
             opacity: 0,
-            duration: 1,
+            duration: 1.5,
         })
         tl.from(paragraph.current, {
             y: 45,
