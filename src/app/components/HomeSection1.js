@@ -48,7 +48,7 @@ function HomeSection1() {
             <p ref={paragraph} className={`${space.className}  text-center px-3 sm:px-0 sm:text-lg text-white tracking-wide`}>
                 Build the Strongest Version of Yourself
             </p>
-            <button className={`px-3 py-2 font-extrabold sm:text-lg rounded-xl bg-[#CCEE0C] hover:bg-white border-2 border-[#CCEE0C] hover:border-black transition  ${zen_dots.className}`}>
+            <button ref={button} className={`px-3 py-2 font-extrabold sm:text-lg rounded-xl bg-[#CCEE0C] hover:bg-white border-2 border-[#CCEE0C] hover:border-black transition  ${zen_dots.className}`}>
                 Join Now
             </button>
         </div>
