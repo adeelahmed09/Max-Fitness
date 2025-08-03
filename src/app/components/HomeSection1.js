@@ -21,12 +21,12 @@ function HomeSection1() {
         tl.from(mainHeading.current, {
             y: 45,
             opacity: 0,
-            duration: .5,
+            duration: 1,
         })
         tl.from(paragraph.current, {
             y: 45,
             opacity: 0,
-            duration: .5,
+            duration: 1,
         })
     }, [])
     return (
