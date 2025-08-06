@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import HomeSection1 from "./components/HomeSection1";
+import HomeSection2 from "./components/HomeSection2";
 
 export default function Home() {
   return (
@@ -17,8 +18,12 @@ export default function Home() {
           content="gym in Islampura, Lahore gym, Max Fitness Center, fitness center, personal training, best gym in Lahore"
         />
     </Head>
-    <div className="w-screen h-[200vh]  relative">
+    <div className="w-screen  relative">
       <HomeSection1/>
+      <HomeSection2/>
+      <div className="h-[15vh] w-full">
+
+      </div>
     </div>
     </>
   );

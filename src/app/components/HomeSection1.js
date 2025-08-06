@@ -57,7 +57,7 @@ function HomeSection1() {
                 className="-z-20 brightness-35 object-cover sm:object-center object-[60%_center]"
                 priority
             />
-            <h1 ref={mainHeading} className={`sm:text-4xl opacity-100 text-3xl lg:text-7xl tracking-tighter text-center text-white uppercase ${zen_dots.className}`}>
+            <h1 ref={mainHeading} className={`sm:text-4xl md:text-sm opacity-100 text-3xl lg:text-6xl tracking-tighter text-center text-white uppercase ${zen_dots.className}`}>
                 Unlock <span className='primaryColor'>Your</span> Power
             </h1>
             <p ref={paragraph} className={`${space.className} opacity-100  text-center px-3 sm:px-0 sm:text-lg text-white tracking-wide`}>
