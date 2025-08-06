@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
         />
         <Nav />
         {children}
+        <div className="h-[15vh] w-full">
+
+      </div>
       </body>
     </html>
   );

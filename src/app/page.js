@@ -21,9 +21,7 @@ export default function Home() {
     <div className="w-screen  relative">
       <HomeSection1/>
       <HomeSection2/>
-      <div className="h-[15vh] w-full">
-
-      </div>
+      
     </div>
     </>
   );
