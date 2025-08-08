@@ -13,7 +13,8 @@ function HomeSection3() {
                     What Set Us Apart
                 </h1>
                 <p className='sm:w-[50%] w-[90%] mt-2.5 text-center'>
-                    We Deliver A Fitness Experience That's Truly One-Of-A-Kind. Explore How We Help You Achive Your Goals Faster And Smarter
+                {` We Deliver A Fitness Experience That's Truly One-Of-A-Kind. Explore How We Help You Achive Your Goals Faster And Smarter
+                `}   
                 </p>
             </div>
             <Carousel/>
