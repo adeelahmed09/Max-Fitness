@@ -3,6 +3,7 @@
 import Head from "next/head";
 import HomeSection1 from "./components/HomeSection1";
 import HomeSection2 from "./components/HomeSection2";
+import HomeSection3 from "./components/HomeSection3";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
     <div className="w-screen  relative">
       <HomeSection1/>
       <HomeSection2/>
-      
+      <HomeSection3/>
     </div>
     </>
   );

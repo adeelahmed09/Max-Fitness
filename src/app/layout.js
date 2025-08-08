@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/Footer";
 
 
 export const metadata = {
@@ -30,9 +31,7 @@ export default function RootLayout({ children }) {
         />
         <Nav />
         {children}
-        <div className="h-[15vh] w-full">
-
-      </div>
+        <Footer/>
       </body>
     </html>
   );
