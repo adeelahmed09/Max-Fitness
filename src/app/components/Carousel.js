@@ -37,7 +37,7 @@ function Carousel({ref}) {
                         </div>
                         <p className='text-sm text-white mt-3 '>Bost endurance and heart health with hig enrgy cardion session design to keep you moving</p>
                         <div className='mt-3 w-full flex justify-end'>
-                            <Link href={"#"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
+                            <Link href={"#plan"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -51,7 +51,7 @@ function Carousel({ref}) {
                         </div>
                         <p className='text-sm text-white mt-3 '>Bost endurance and heart health with hig enrgy cardion session design to keep you moving</p>
                         <div className='mt-3 w-full flex justify-end'>
-                            <Link href={"#"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
+                            <Link href={"#plan"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -65,7 +65,7 @@ function Carousel({ref}) {
                         </div>
                         <p className='text-sm text-white mt-3 '>Bost endurance and heart health with hig enrgy cardion session design to keep you moving</p>
                         <div className='mt-3 w-full flex justify-end'>
-                            <Link href={"#"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
+                            <Link href={"#plan"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -79,7 +79,7 @@ function Carousel({ref}) {
                         </div>
                         <p className='text-sm text-white mt-3 '>Bost endurance and heart health with hig enrgy cardion session design to keep you moving</p>
                         <div className='mt-3 w-full flex justify-end'>
-                            <Link href={"#"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
+                            <Link href={"#plan"} className='text-black font-semibold bg-[#CCEE0C] px-3 py-1.5 rounded-lg '>See Plan</Link>
                         </div>
                     </div>
                 </SwiperSlide>
