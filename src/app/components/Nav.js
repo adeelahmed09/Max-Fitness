@@ -25,8 +25,8 @@ function Nav() {
           </ul>
         </section>
       </nav>
-      <div className='absolute z-50 top-0 w-full text-center pt-4 sm:hidden'>
-        <h1 className={`${zen_dots.className} text-2xl text-white`}>Max <span className='text-[#CCEE0C]'>Fitness</span> Center</h1>
+      <div className='absolute z-50 top-0 w-full  text-center pt-4 sm:hidden'>
+        <h1 className={`${zen_dots.className} text-3xl -tracking-tighter text-white`}>Max <span className='text-[#CCEE0C]'>Fitness</span> Center</h1>
       </div>
       <nav className='sm:hidden w-full px-5 py-5 border-t-2 border-[#CCEE0C] bg-black flex items-center justify-around fixed text-white bottom-0 z-50' id='mobileNav'>
         <Link href={"/"} className={`flex flex-col items-center hover:text-[#CCEE0C] justify-center`}><House size={24} color={pathName === "/" ? "#CCEE0C" : "  #fff"} strokeWidth={2.5} /> </Link>

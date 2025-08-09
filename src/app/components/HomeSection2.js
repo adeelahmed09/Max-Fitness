@@ -44,8 +44,8 @@ function HomeSection2() {
                 </h1>
                 <p className={`${space.className} text-white text-center text-sm mt-1.5`}>{`We'r Your Partner to Achieving A Healthier, Strong And More Confident Yoy`}</p>
             </div>
-            <div ref={box} className='lg:w-[70%] sm:w-[80%] px-5 w-[90%] sm:h-[45vh] h-[70vh] rounded-3xl bg-[#171813] relative'>
-                <div className=' lg:w-[75%] sm:w-[70%] w-full  grid lg:grid-cols-2 sm:gap-y-0 lg:sm:gap-0  lg:grid-rows-3 gap-y-5 py-5 justify-items-start items-center sm:h-full h-[40%]'>
+            <div ref={box} className='lg:w-[70%] sm:w-[80%] px-5 w-[90%] sm:h-[45vh] h-fit py-5 mt-2 rounded-3xl bg-[#171813] relative'>
+                <div className=' lg:w-[75%] sm:w-[70%] w-full  grid lg:grid-cols-2 sm:gap-y-0 lg:sm:gap-0  lg:grid-rows-3 gap-y-5 py-5  justify-items-start items-center sm:h-full h-fit'>
                     <div className='flex items-center  gap-2 grid-cols-1'> <div className='p-1 rounded-full w-fit h-fit border-2 border-[#ccee0c]'><Leaf size={20} color="#ccee0c" /></div> <h2 className={`${space.className} text-lg  text-white font-bold`}>Nutrition Guidance</h2></div>
                     <div className='flex items-center gap-2 grid-cols-2'> <div className='p-1 rounded-full w-fit h-fit border-2 border-[#ccee0c]'><ClipboardCheck size={20} color="#ccee0c" /></div> <h2 className={`${space.className} text-lg  text-white font-bold`}>Program Tarking</h2></div>
                     <div className='flex items-center gap-2 grid-cols-3'> <div className='p-1 rounded-full w-fit h-fit border-2 border-[#ccee0c]'><Dumbbell size={20} color="#ccee0c" /></div> <h2 className={`${space.className}text-lg text-white font-bold`}>Expert Trainer</h2></div>
@@ -53,7 +53,7 @@ function HomeSection2() {
                     <div className='flex items-center gap-2'> <div className='p-1 rounded-full w-fit h-fit border-2 border-[#ccee0c]'><HandFist size={20} color="#ccee0c" /></div> <h2 className={`${space.className} text-lg  text-white font-bold`}>Community Support</h2></div>
                     <div className='flex items-center gap-2'> <div className='p-1 rounded-full w-fit h-fit border-2 border-[#ccee0c]'><Building size={20} color="#ccee0c" /></div> <h2 className={`${space.className} text-lg  text-white font-bold`}>Next-Level Fitness Space</h2></div>
                 </div>
-                <img src="/Model1.png" className='-z-10 absolute filter grayscale sm:top-0 bottom-0 sm:brightness-100 brightness-50 object-center object-cover brightness-100 right-0 h-full' alt="" />
+                <img src="/Model1.png" className='-z-10 absolute filter grayscale sm:top-0 bottom-0 sm:brightness-100  object-center object-cover brightness-50 right-0 h-full' alt="" />
             </div>
         </div>
     )

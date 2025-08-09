@@ -13,9 +13,9 @@ const zenDots = Zen_Dots({
   weight: '400',
   display: 'swap',
 });
-function Carousel() {
+function Carousel({ref}) {
     return (
-        <div className="sm:w-full w-[80vw] max-w-5xl sm:mt-[5vw] mt-[10vw] mx-auto ">
+        <div ref={ref} className="sm:w-full w-[80vw] max-w-5xl sm:mt-[5vw] mt-[10vw] mx-auto ">
             <Swiper
                 modules={[Pagination]}
                 spaceBetween={20}

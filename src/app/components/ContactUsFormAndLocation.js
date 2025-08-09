@@ -57,7 +57,7 @@ function ContactUsFormAndLocation() {
             });
     }
     return (
-        <div ref={container} className='w-full flex justify-center items-center  px-1  lg:py-[5vw] sm:py-[3.5vw] py-5'>
+        <div ref={container} className='w-full flex justify-center items-center  px-1  lg:py-[5vw] sm:py-[3.5vw] py-[10vh]'>
             <div ref={box} className='sm:w-[70%] w-[90%] flex sm:flex-row flex-col rounded-2xl relative overflow-hidden sm:h-[75vh] bg-[#1A1A1A]'>
                 {renderLoader()}
                 <div className='sm:w-1/2 w-full sm:px-15 px-4 py-10  h-full'>
